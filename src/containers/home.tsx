@@ -24,7 +24,7 @@ const HomeSection = () => {
       {/* Presentation */}
       <div className="md:col-span-6 flex flex-col items-center md:items-start gap-y-4">
         <h2 className="text-3xl md:text-5xl font-bold text-foreground capitalize">
-          hi, i'm mustapha
+          hi, i&apos;m mustapha
         </h2>
         <h5 className="text-xl md:text-2xl font-semibold capitalize">
           frontend developer

@@ -1,4 +1,3 @@
-import { UrlRegExp } from "@/lib/utils";
 import { defineField, defineType } from "sanity";
 
 export default defineType({
@@ -38,13 +37,11 @@ export default defineType({
       name: "demoLink",
       type: "url",
       title: "Demo Link",
-      validation: (Rule) => Rule.regex(UrlRegExp).optional(),
     }),
     defineField({
       name: "githubLink",
       type: "url",
       title: "Github Repository Link",
-      validation: (Rule) => Rule.regex(UrlRegExp).optional(),
     }),
     defineField({
       name: "publishedAt",

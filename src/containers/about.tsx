@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils";
 import { ArrowRightCircle } from "lucide-react";
 import React from "react";
 
-const AboutSection = () => {
-  const { statistics } = getStatistics();
+const AboutSection = async () => {
+  const { statistics } = await getStatistics();
 
   return (
     <section id="about" className="relative">

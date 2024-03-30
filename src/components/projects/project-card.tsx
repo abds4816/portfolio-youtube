@@ -17,7 +17,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ imageUrl, title }) => {
         alt={title}
         className="size-full rounded-sm group-hover:scale-105 transition"
       />
-      <h3 className="absolute bottom-2 start-2 text-foreground group-hover:text-primary capitalize truncate">
+      <h3 className="absolute bottom-2 start-2 text-foreground group-hover:text-primary capitalize truncate font-semibold">
         {title}
       </h3>
     </article>

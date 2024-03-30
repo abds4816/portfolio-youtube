@@ -22,12 +22,12 @@ const Carousel: FC<CarouselProps> = ({ images }) => {
         width={320}
         height={320}
         alt="current image"
-        className="w-full shadow"
+        className="w-full max-h-[30rem] shadow"
       />
       <div className="grid grid-cols-4 gap-2">
         {images.map((image, index) => (
           <Suspense key={index} fallback={<Loader />}>
-            <div className="w-full overflow-hidden">
+            <div className="w-full max-h-28 overflow-hidden">
               <Image
                 src={urlForImage(image)}
                 width={120}

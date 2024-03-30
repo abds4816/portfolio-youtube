@@ -22,7 +22,7 @@ const Carousel: FC<CarouselProps> = ({ images }) => {
         width={320}
         height={320}
         alt="current image"
-        className="w-full max-h-[30rem] shadow"
+        className="w-full shadow"
       />
       <div className="grid grid-cols-4 gap-2">
         {images.map((image, index) => (

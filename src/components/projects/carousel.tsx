@@ -27,7 +27,7 @@ const Carousel: FC<CarouselProps> = ({ images }) => {
       <div className="grid grid-cols-4 gap-2">
         {images.map((image, index) => (
           <Suspense key={index} fallback={<Loader />}>
-            <div className="w-full max-h-28 overflow-hidden">
+            <div className="w-full overflow-hidden">
               <Image
                 src={urlForImage(image)}
                 width={120}
